@@ -2,34 +2,33 @@ SCALE ON
 BACKGROUND_IMAGE 0 0 background.png
 SCALE OFF
 
-# the image is 390x234, make it centered, all icons need the same adjustment too
-# 241x88
+# kubuntu logo, 241x88
 IMAGE_REL CC 0 -44 CC kubuntu_logo.png 
 
-# start with the blue dots 21x21 23,1
+# dots, 21x21 each, spacing 23 px
 IMAGE_REL CC -42 33 CC progress_dot_on.png
 IMAGE_REL CC -19 33 CC progress_dot_on.png
 IMAGE_REL CC 4 33 CC progress_dot_on.png
 IMAGE_REL CC 27 33 CC progress_dot_on.png
 IMAGE_REL CC 50 33 CC progress_dot_on.png
 
-# IMAGE_REL CC 0 0 CC progress0.png
+# 1st dot
 IMAGE_REL CC -42 33 CC progress_dot_off.png
 WAIT_STATE kded
 
-# IMAGE_REL CC 0 0 CC progress1.png
+# 2nd dot
 IMAGE_REL CC -19 33 CC progress_dot_off.png
 WAIT_STATE kcminit
 
-# IMAGE_REL CC 0 0 CC progress2.png
+# 3rd dot
 IMAGE_REL CC 4 33 CC progress_dot_off.png
 WAIT_STATE ksmserver
 
-# IMAGE_REL CC 0 0 CC progress3.png
+# 4th dot
 IMAGE_REL CC 27 33 CC progress_dot_off.png
 WAIT_STATE wm
 
-# IMAGE_REL CC 0 0 CC progress4.png
+# 5th dot
 IMAGE_REL CC 50 33 CC progress_dot_off.png
 WAIT_STATE desktop
 
