@@ -1,0 +1,9 @@
+[KSplash Theme: maverick]
+Name = KDE 4.4 Splash Screen
+Description = Splash Screen mimicking the Maverick plymouth splash
+Version = 1.0
+Author = Nils Schnabel <ksplash@to.nilsschnabel.de>
+Homepage = 
+
+# Theme behaviour settings.
+Engine = KSplashX
